@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorCLDependent", "RazorCL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyDependency", "DummyDependency\DummyDependency.csproj", "{7B2BC305-C46F-4F93-B953-406A95715BB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorCLSharedDependent", "RazorCLSharedDependent\RazorCLSharedDependent.csproj", "{FE85AFCE-4079-4A69-8C1A-228301C8FE36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{7B2BC305-C46F-4F93-B953-406A95715BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B2BC305-C46F-4F93-B953-406A95715BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B2BC305-C46F-4F93-B953-406A95715BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE85AFCE-4079-4A69-8C1A-228301C8FE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE85AFCE-4079-4A69-8C1A-228301C8FE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE85AFCE-4079-4A69-8C1A-228301C8FE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE85AFCE-4079-4A69-8C1A-228301C8FE36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

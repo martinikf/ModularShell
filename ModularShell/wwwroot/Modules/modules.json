@@ -10,5 +10,12 @@
     "dependencies": [
       "modules/DummyDependency/DummyDependency.dll"
     ]
+  },
+  {
+    "name": "RazorCLSharedDependent",
+    "path": "modules/RazorCLSharedDependent/RazorCLSharedDependent.dll",
+    "dependencies": [
+      "modules/DummyDependency/DummyDependency.dll"
+    ]
   }
 ]
