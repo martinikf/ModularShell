@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularShell", "ModularShell\ModularShell.csproj", "{09377CD0-A22D-4F62-9952-607C8093A756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorCLStandalone", "RazorCLStandalone\RazorCLStandalone.csproj", "{19295278-0BC2-4F45-BEC7-DADCDB77E084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorCLDependent", "RazorCLDependent\RazorCLDependent.csproj", "{3498B484-8F2E-4DCF-9008-A6CAB81BF747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyDependency", "DummyDependency\DummyDependency.csproj", "{7B2BC305-C46F-4F93-B953-406A95715BB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09377CD0-A22D-4F62-9952-607C8093A756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09377CD0-A22D-4F62-9952-607C8093A756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09377CD0-A22D-4F62-9952-607C8093A756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09377CD0-A22D-4F62-9952-607C8093A756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19295278-0BC2-4F45-BEC7-DADCDB77E084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19295278-0BC2-4F45-BEC7-DADCDB77E084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19295278-0BC2-4F45-BEC7-DADCDB77E084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19295278-0BC2-4F45-BEC7-DADCDB77E084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3498B484-8F2E-4DCF-9008-A6CAB81BF747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3498B484-8F2E-4DCF-9008-A6CAB81BF747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3498B484-8F2E-4DCF-9008-A6CAB81BF747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3498B484-8F2E-4DCF-9008-A6CAB81BF747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2BC305-C46F-4F93-B953-406A95715BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2BC305-C46F-4F93-B953-406A95715BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2BC305-C46F-4F93-B953-406A95715BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2BC305-C46F-4F93-B953-406A95715BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
