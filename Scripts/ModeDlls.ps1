@@ -11,6 +11,7 @@ $dllsToCopy = @(
     @{ Name = "RazorCLDependent"; ProjectFolder = "../RazorCLDependent" }
     @{ Name = "RazorCLSharedDependent"; ProjectFolder = "../RazorCLSharedDependent" }
     @{ Name = "RazorCLStandalone"; ProjectFolder = "../RazorCLStandalone" }
+    @{ Name = "RazorClDependentReferencedInShell"; ProjectFolder = "../RazorClDependentReferencedInShell" }
 )
 
 # Loop through the list of DLLs

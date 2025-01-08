@@ -17,4 +17,8 @@
       <Folder Include="wwwroot\Modules\RazorCLStandalone\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DummyDependencyReferenceFromShell\DummyDependencyReferenceFromShell.csproj" />
+    </ItemGroup>
+
 </Project>

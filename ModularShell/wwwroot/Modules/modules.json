@@ -17,5 +17,10 @@
     "dependencies": [
       "modules/DummyDependency/DummyDependency.dll"
     ]
-  }
+  },
+  {
+  "name": "RazorCLDependentReferencedInShell",
+  "path": "modules/RazorCLDependentReferencedInShell/RazorCLDependentReferencedInShell.dll",
+  "dependencies": []
+}
 ]

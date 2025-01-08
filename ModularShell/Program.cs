@@ -23,4 +23,7 @@ var assemblies = await loader.LoadAdditionalAssemblies();
 var persistence = app.Services.GetRequiredService<AssemblyPersistence>();
 persistence.Assemblies.AddRange(assemblies);
 
+// Add routing to Dependency referenced from shell
+persistence.Assemblies.Add(typeof(DummyDependencyReferenceFromShell.DummyService2).Assembly);
+
 await app.RunAsync();
